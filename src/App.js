@@ -1,18 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import React from 'react'
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import NavBar from './components/NavBar';
+
+function App(params) {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Clase reactjs coderhouse
-        </p>
-        
-      </header>
+      <div className="container">
+        <NavBar menu1={'Uno'} menu2={'dos'} menu3={'tres'}/>
+      </div>  
     </div>
   );
+  
 }
 
 export default App;
