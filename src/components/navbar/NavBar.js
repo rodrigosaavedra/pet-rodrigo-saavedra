@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import CarWidget from './CarWidget';
+import CarWidget from '../widgets/CarWidget';
 
 const NavBar=({menu1,menu2,menu3})=>{
     
